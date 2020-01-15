@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="structures\ds_routines.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\structure.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\vector\vector.cpp">
+      <Filter>Structures\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Kraj.cpp">
+      <Filter>Pomocne triedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Okres.cpp">
+      <Filter>Pomocne triedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Oblast.cpp">
+      <Filter>Pomocne triedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Obec.cpp">
+      <Filter>Pomocne triedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Nacitanie.cpp" />
+    <ClCompile Include="Sort.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Filter.h">
+      <Filter>Kriteria a Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="Kriterium.h">
+      <Filter>Kriteria a Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="Kandidat.h">
+      <Filter>Pomocne triedy</Filter>
+    </ClInclude>
+    <ClInclude Include="VyberoveKriterium.h">
+      <Filter>Kriteria a Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="heap_monitor.h" />
+    <ClInclude Include="structures\ds_routines.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\ds_structure_types.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\heap_monitor.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure_iterator.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\array\array.h">
+      <Filter>Structures\array</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\vector\vector.h">
+      <Filter>Structures\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\array_list.h">
+      <Filter>Structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\linked_list.h">
+      <Filter>Structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\list.h">
+      <Filter>Structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\table.h">
+      <Filter>Structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sequence_table.h">
+      <Filter>Structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorted_sequence_table.h">
+      <Filter>Structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\unsorted_sequence_table.h">
+      <Filter>Structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="Oblast.h">
+      <Filter>Pomocne triedy</Filter>
+    </ClInclude>
+    <ClInclude Include="Okres.h">
+      <Filter>Pomocne triedy</Filter>
+    </ClInclude>
+    <ClInclude Include="Obec.h">
+      <Filter>Pomocne triedy</Filter>
+    </ClInclude>
+    <ClInclude Include="Kraj.h">
+      <Filter>Pomocne triedy</Filter>
+    </ClInclude>
+    <ClInclude Include="Kolo.h">
+      <Filter>Pomocne triedy</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\array\matrix.h">
+      <Filter>Structures\array</Filter>
+    </ClInclude>
+    <ClInclude Include="Nacitanie.h" />
+    <ClInclude Include="Sort.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Kriteria a Filtre">
+      <UniqueIdentifier>{61b41e78-d9de-4067-b637-b54e76eda7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pomocne triedy">
+      <UniqueIdentifier>{01c678e9-9544-44f5-921c-c8cd07f481e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{2e1a1c60-9781-4c53-8d58-bd436c0a4ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\array">
+      <UniqueIdentifier>{0ddb500b-7705-494f-9f86-8aa3ed87330e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\vector">
+      <UniqueIdentifier>{7256dd42-9eae-46df-9f47-5e5d91b3eeda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\list">
+      <UniqueIdentifier>{6a1a69f1-081f-4b7e-a39f-7bd05bc24521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\table">
+      <UniqueIdentifier>{dc97c1d1-0c2f-458c-aa6e-ecf2c18b76e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="aus.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
